@@ -20,6 +20,7 @@ function generateCard() {
   document.querySelector(".cardnumber").innerHTML =
     cardValue[Math.floor(Math.random() * cardValue.length)];
 
+    
   let symbolRandom = Math.floor(Math.random() * cardSymbol.length);
   let topSuit = document.querySelector(".top-suit");
   let bottomSuit = document.querySelector(".bottom-suit");
@@ -41,5 +42,6 @@ function generateCard() {
 // document.querySelector(".top-suit, .bottom-suit").innerHTML =
 //   cardsymbol[Math.floor(Math.random() * cardsymbol.length)];
 
+// let symbolRandom = Math.floor(Math.random() * cardSymbol.length);
 // document.querySelector(".top-suit").innerHTML = cardsymbol[symbolRandom];
 // document.querySelector(".bottom-suit").innerHTML = cardsymbol[symbolRandom];
